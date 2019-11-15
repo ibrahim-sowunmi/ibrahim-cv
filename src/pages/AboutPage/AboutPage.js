@@ -40,7 +40,7 @@ const AboutPage = (props, context) => {
             </p>
             <p>
               View {' '}
-              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=19v7nFsI20zr2dDzYI7JI1c2YLQ3kmXts">
+              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1YKnYYw4ENRwtMPU0ccwDsNHqLqTeVvAv/view?usp=sharing">
               <span className="highlight">My Resume!</span>
               </a>
             </p>
