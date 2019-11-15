@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LandingPage from '@pages/LandingPage';
 import AboutPage from '@pages/AboutPage';
+import ArtPage from '@pages/ArtPage';
 import PortfolioPage from '@pages/PortfolioPage';
 import ParallaxBackground from '@components/ParallaxBackground';
 import ScrollTop from '@components/ScrollTop';
@@ -20,6 +21,7 @@ class App extends Component {
           <LandingPage />
           <AboutPage />
           <PortfolioPage />
+          <ArtPage />
           <ScrollTop />
           <Footer />
         </ThemeSwitcher>

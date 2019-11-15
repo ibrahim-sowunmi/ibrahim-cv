@@ -1,24 +1,6 @@
 import React from 'react';
 
 export default [{
-  name: 'event-lite-h19',
-  render: (
-    <div className='portfolio-item'>
-      <div className='portfolio-item__title'>
-        Event Lite 
-      </div>
-      <div className='portfolio-item__desc'>
-        Ticket trading platform V2. Built with SpringBoot & Thymleaf
-      </div>
-      <div className='portfolio-item__icon'>
-        <i className="fab fa-java"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://gitlab.cs.man.ac.uk/comp23412_2018/eventlite_H12">Git</a>
-      </div>
-    </div>
-  )
-}, {
   name: 'ticket-link',
   render: (
     <div className='portfolio-item'>
@@ -77,4 +59,45 @@ export default [{
       </div>
     </div>
   )
-}]
+},  {
+  name: 'Google Hackathon',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Google Hackathon '19'
+      </div>
+      <div className='portfolio-item__desc'>
+        Ticket trading platform V1
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-js"></i>
+        <i className="fab fa-html5"></i>
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ebunona1/googlehackerthon2019/tree/master/pitchify">Git</a>
+      </div>
+    </div>
+  )
+},  {
+  name: 'event-lite-h19',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Event Lite 
+      </div>
+      <div className='portfolio-item__desc'>
+        Ticket trading platform V2. Built with SpringBoot & Thymleaf
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-html5"></i>
+        <i className="fab fa-css3"></i>
+        <i className="fab fa-php"></i>
+        <i className="fab fa-java"></i>
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://gitlab.cs.man.ac.uk/comp23412_2018/eventlite_H12">Git</a>
+      </div>
+    </div>
+  )
+},]
+

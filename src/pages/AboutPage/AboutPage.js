@@ -27,22 +27,23 @@ const AboutPage = (props, context) => {
             <p>
               Second year student pursuing a BSc in{' '}
               <span className="highlight">Computer Science with Human-computer Interaction</span>
-              , graduating in 2021.
-              Passionate about problem-solving, intuitive design, and
-              everything web. 
+              , graduating in 2021. <br></br> 
+              Passionate about problem-solving, intuitive design, with a burgeoning interest in devOps. 
             </p>
             <p>
-              Constantly {' '}<span className="highlight">learning</span>
-              , currently in cahoots with ... 
+              Constantly {' '}<span className="highlight">learning</span>...
             </p>
             <p>
-              <b>Java, HTML, CSS, Js, Sketch 4, Python.</b>
+              <b>Current Read: </b><a href='https://eloquentjavascript.net/Eloquent_JavaScript.pdf'>Eloquent Javascript</a>
             </p>
             <p>
               View {' '}
-              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1YKnYYw4ENRwtMPU0ccwDsNHqLqTeVvAv/view?usp=sharing">
+              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/open?id=1xqsh9lxCEUQtK4hMglCzkOPDcOdlFPfd">
               <span className="highlight">My Resume!</span>
               </a>
+            </p>
+            <p>
+              This website is hosted via S3, Route53 & Cloudfront... 
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /
